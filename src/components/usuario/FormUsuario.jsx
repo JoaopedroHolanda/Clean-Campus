@@ -47,5 +47,5 @@ export const FormUsuario = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
