@@ -1,4 +1,4 @@
-import imagem from "../assets/Clean Campus (3) 1.jpg";
+import imagem from "../../assets/Clean Campus (3) 1.jpg";
 
 export const FormUsuario = () => {
   return (
