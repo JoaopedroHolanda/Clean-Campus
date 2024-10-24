@@ -9,6 +9,7 @@ const RegistrarOcorrencia = () => {
               name="categoria"
               id="categoria"
               className="w-60 h-14 border rounded-md shadow-lg "
+              
             >
                 <option value="" disabled selected>Selecione a categoria</option>
               <option value="Limpeza">Limpeza</option>
@@ -68,7 +69,7 @@ const RegistrarOcorrencia = () => {
               />
             </label>
           </div>
-          <button className="p-2 w-full bg-blue-700 rounded-xl text-white hover:bg-blue-800">Registrar Ocorrência</button>
+          <button className="p-2 w-full bg-azul-unifor rounded-xl text-white hover:bg-blue-900">Registrar Ocorrência</button>
         </form>
       </div>
     </div>

@@ -2,7 +2,7 @@ import imagem from "../../assets/Clean Campus (3) 1.jpg";
 
 export const LoginUsuario = () =>{
     return (
-        <div className="h-screen w-screen overflow-hidden bg-sky-700">
+        <div className="h-screen w-screen overflow-hidden bg-azul-unifor">
           <div className="flex flex-col items-center justify-center gap-5 p-8">
             <h1 className="text-white font-medium text-2xl">
               Bem vindo ao Clean Campus
@@ -17,7 +17,7 @@ export const LoginUsuario = () =>{
                     Email/Matricula
                   </label>
                   <input
-                    className="outline-none border-2 border-sky-700 rounded-lg p-2"
+                    className="outline-none border-2 border-azul-unifor rounded-lg p-2"
                     type="email"
                   />
                 </div>
@@ -26,14 +26,14 @@ export const LoginUsuario = () =>{
                     Senha
                   </label>
                   <input
-                    className="outline-none border-2 border-sky-700 rounded-lg p-2"
+                    className="outline-none border-2 border-azul-unifor rounded-lg p-2"
                     type="password"
                   />
                 </div>
-                <button className='p-2 w-full bg-sky-700 rounded-xl text-white hover:bg-sky-800'>Entrar</button>
+                <button className='p-2 w-full bg-azul-unifor rounded-xl text-white hover:bg-sky-800'>Entrar</button>
               </form>
               <p>
-               Ainda não tem uma conta? <a className="text-sky-700" href="">Cadastre-se</a>
+               Ainda não tem uma conta? <a className="text-azul-unifor" href="">Cadastre-se</a>
               </p>
             </div>
           </div>
