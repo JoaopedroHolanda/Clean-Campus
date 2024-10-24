@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="manifest" href="https://clean-campus.vercel.app/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
   <body>
     <div id="root"></div>
-    <script>if(typeof navigator.serviceWorker !=='undefined'){
-      navigator.serviceWorker.register('pwabuilder-sw.js')
-    }</script>
+   <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('./sw.js');
+    }
+
+	
+	</script>
+   </script>
     <script type="module" src="/src/main.jsx"></script>
 
   </body>
