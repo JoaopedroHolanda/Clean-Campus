@@ -1,0 +1,11 @@
+{
+    "name": "Clean Campus",
+    "theme_color": "#044cf4",
+    "background_color": "#044cf4",
+    "short_name": "Clean Campus",
+    "id": "1918",
+    "description": "App do Clean Campus",
+    "categories": [
+      "utilities"
+    ]
+  }
