@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import imagem from "../../assets/Clean Campus (3) 1.jpg";
 
 export const LoginUsuario = () =>{
@@ -13,7 +14,7 @@ export const LoginUsuario = () =>{
             <div className="bg-white px-4 py-2 gap-6 rounded-xl mt-10 flex flex-col items-center justify-center w-full">
               <form className="flex flex-col gap-4 w-full">
                 <div className="flex flex-col gap-2">
-                  <label className="font-semibold" htmlFor="email">
+                  <label className="font-semibold" htmlFor="email/">
                     Email/Matricula
                   </label>
                   <input
@@ -30,7 +31,9 @@ export const LoginUsuario = () =>{
                     type="password"
                   />
                 </div>
-                <button className='p-2 w-full bg-azul-unifor rounded-xl text-white hover:bg-sky-800'>Entrar</button>
+                <Link to={"/usuario/home"}>
+                  <button className='p-2 w-full bg-azul-unifor rounded-xl text-white hover:bg-sky-800'>Entrar</button>
+                </Link>
               </form>
               <p>
                Ainda não tem uma conta? <a className="text-azul-unifor" href="">Cadastre-se</a>
