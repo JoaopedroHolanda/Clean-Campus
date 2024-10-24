@@ -1,4 +1,6 @@
+import {Link} from 'react-router-dom';
 import imagem from '../assets/Clean Campus (3) 1.jpg'
+
 
 const PaginaInicial = () => {
   return (
@@ -11,7 +13,12 @@ const PaginaInicial = () => {
             <div className='bg-white p-6 gap-6 rounded-xl mt-5 flex flex-col items-center justify-center h-auto'>
                 <h3 className='font-medium text-lg text-azul-unifor'>Que tipo de usuario voce é?</h3>
                 <button className='p-3 w-full bg-azul-unifor rounded-xl text-white hover:bg-blue-900'>Sou prestador</button>
-                <button className='p-3 w-full bg-azul-unifor rounded-xl text-white hover:bg-blue-900'>Sou professro/aluno</button>
+                <Link to={"/usuario/login"} className='w-full'>
+                <button className='p-3 w-full bg-azul-unifor rounded-xl text-white hover:bg-blue-900'>Sou professor/aluno</button>
+                </Link>
+              
+                
+
             </div>
         </div>
     </div>
